@@ -1,0 +1,6 @@
+{
+  "name": "Travel Itinerary Generator",
+  "description": "Generate personalized day-by-day travel itineraries with customized activities, scheduling, budget estimates, and packing guides based on destination, duration, and interests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
