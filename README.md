@@ -1,20 +1,122 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌍 AI-Powered Travel Itinerary Generator
 
-# Run and deploy your AI Studio app
+An intelligent travel planning web application that generates personalized day-by-day travel itineraries using **Google Gemini AI**. Users can enter their destination, trip duration, travel style, interests, and preferences to receive customized travel recommendations.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/965114bf-a49b-4900-b3ea-c024d047ee23
+🔗 https://travel-itinerary-generator-862133778888.asia-southeast1.run.app
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 📌 Features
 
+✅ Personalized travel itineraries
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+✅ Day-by-day activity planning
+
+✅ Budget estimation and travel recommendations
+
+✅ Local food and culinary suggestions
+
+✅ Packing guide recommendations
+
+✅ Cultural and local travel tips
+
+✅ Multi-model AI fallback support
+
+✅ Cloud-based deployment with Google Cloud Run
+
+---
+
+## 🖼️ Application Workflow
+
+1. Enter destination details.
+2. Select trip duration and travel style.
+3. Add interests and special preferences.
+4. Generate a personalized itinerary.
+5. Receive day-wise recommendations, budget insights, food suggestions, and travel tips.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* TypeScript
+* HTML
+* CSS
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+
+### AI & Cloud
+
+* Google AI Studio
+* Gemini AI
+* Google Cloud Run
+
+---
+
+## 📂 Project Architecture
+
+```text
+User Input
+     │
+     ▼
+Frontend (Vite + TypeScript)
+     │
+     ▼
+Express API Server
+     │
+     ▼
+Gemini AI
+     │
+     ▼
+Structured Travel Itinerary
+```
+
+---
+
+## ✨ Key Highlights
+
+* Built using AI-assisted development with Google AI Studio.
+* Generates structured travel plans using Gemini AI.
+* Supports personalized recommendations based on user preferences.
+* Includes fallback itinerary generation for improved reliability.
+* Deployed as a scalable cloud-native application.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+* Generative AI Application Development
+* Prompt Engineering
+* Cloud Deployment
+* API Integration
+* TypeScript Development
+* Full-Stack Application Architecture
+
+---
+
+## 👨‍💻 Author
+
+**Thoufik Hyder Ali**
+
+Aspiring AI Engineer | Generative AI Enthusiast | Python Full Stack Developer
+
+### Connect With Me
+
+LinkedIn:
+https://www.linkedin.com/in/thoufik-hyder-ali-23bai062/
+
+GitHub:
+https://github.com/Thou5ik
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
